@@ -1,0 +1,34 @@
+{
+	"include": [
+		"./src/**/*.ts"
+	],
+	"compileOnSave": false,
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "esnext",
+		"noImplicitAny": true,
+		"sourceMap": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"rootDir": "./src/",
+		"allowJs": false,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"alwaysStrict": true,
+		"charset": "utf8",
+		"declaration": true,
+		"allowSyntheticDefaultImports": false,
+		"diagnostics": false,
+		"lib": [
+			"esnext"
+		],
+		"locale": "zh_CN",
+		"newLine": "lf",
+		"moduleResolution": "node",
+		"noLib": false,
+		"outDir": "./dist",
+		"watch": false
+	}
+}
