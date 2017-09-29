@@ -56,5 +56,7 @@ export async function promise9(msg: string) {
 }
 
 export async function promise10(msg: string) {
-	return await msg;
+	return await new Promise<string>((resolve, reject) => {
+		resolve(msg);
+	});
 }
